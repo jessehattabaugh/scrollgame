@@ -10,28 +10,26 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 
 		<style>
-			* {
+			*,
+			*:before,
+			*:after {
+				box-sizing: border-box;
 				margin: 0;
 				padding: 0;
 			}
 			html,
-			body,
-			main {
+			body {
 				height: 100%;
 			}
 		</style>
 	</head>
 	<body>
-		<main>
-			<article>
-				<h1>scrollgame</h1>
-				<img  
-			</article>
+		<scroll-game></scroll-game>
 
-		</main>
-
-		<!-- scripts to run on page load -->
 		<script type="module">
+			import { component } from 'https://cdn.skypack.dev/haunted';
+			import ScrollGame from './ScrollGame.js';
+			customElements.define('scroll-game', component(ScrollGame));
 			console.debug('👋🌎 welcome to scrollgame');
 		</script>
 
