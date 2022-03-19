@@ -1,0 +1,23 @@
+{
+	"author": "Jesse Hattabaugh<jessehattabaugh@protonmail.com>",
+	"bugs": {
+		"url": "https://github.com/jessehattabaugh/scrollgame/issues"
+	},
+	"description": "a 2D side scrolling game based on the DOM",
+	"homepage": "https://github.com/jessehattabaugh/scrollgame#readme",
+	"license": "UNLICENSED",
+	"name": "scrollgame",
+	"private": true,
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/jessehattabaugh/scrollgame.git"
+	},
+	"scripts": {
+		"test": "npx cowsay no tests yet",
+		"start": "serve www"
+	},
+	"version": "0.0.0",
+	"devDependencies": {
+		"serve": "^13.0.2"
+	}
+}

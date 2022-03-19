@@ -1,2 +1,3 @@
 # scrollgame
-a game about scrolling, this time side to side
+
+a 2D side scrolling game based on the DOM
